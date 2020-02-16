@@ -1,2 +1,3 @@
 # Project-Template-Godot
-A default Godot project template for MSCH-C220
+
+This is a space shooter game for the fourth week in the C220 class at Indiana Universtiy 
