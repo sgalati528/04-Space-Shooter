@@ -36,7 +36,7 @@ func _physics_process(delta):
 	if Input.is_action_pressed("Fire"):
 		var b = Bullet_R.instance()
 		b.position = position
-		b.position.y -= 100
+		b.position.y -= 50
 		get_node("/root/Game/Bullets").fire(b)
 	if Input.is_action_pressed("Left"):
 		velocity.x -= acceleration
