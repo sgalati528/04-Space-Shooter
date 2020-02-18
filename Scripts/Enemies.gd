@@ -12,7 +12,7 @@ func _ready():
 
 
 func _on_Timer_timeout():
-	if get_child_count() < max_enemies +1 :
+	if get_child_count() < max_enemies +1 or get_child_count() == 1:
 		if randf() < 0.5:
 			var e = Enemy1.instance()
 			add_child(e)

@@ -1,0 +1,26 @@
+[gd_scene format=2]
+
+[node name="GameOver" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -20.3539
+margin_top = -29.011
+margin_right = 1067.65
+margin_bottom = 629.989
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 289.128
+margin_top = 133.286
+margin_right = 712.128
+margin_bottom = 348.286
+text = "Game Over!"
+align = 1
+valign = 1
+percent_visible = -0.111111
+__meta__ = {
+"_edit_use_anchors_": false
+}
